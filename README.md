@@ -3,7 +3,7 @@
 Welcome to my personal portfolio website!
 This project showcases my **projects, skills, and journey as a backend developer**.
 
-## 👨‍💻 About Me
+## About Me
 
 Hi, I'm **Sabbir Khan**.
 I am passionate about **Python, Backend Development, and building real-world applications**.
@@ -38,6 +38,7 @@ You can view the website by opening **index.html** in your browser.
 If you'd like to connect with me:
 
 * GitHub: https://github.com/sabbirkhan-dev
+* Portfolio: https://sabbirkhan.netlify.app/
 
 ---
 
