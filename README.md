@@ -39,6 +39,7 @@ If you'd like to connect with me:
 
 * GitHub: https://github.com/sabbirkhan-dev
 * Portfolio: https://sabbirkhan.netlify.app/
+* Gmail: sabbirkhan.dev@gmail.com
 
 ---
 
