@@ -1,0 +1,114 @@
+/* ============================================
+   Professional Backend Developer Portfolio CSS
+   Color Theme: Navy Blue + Light Blue Accent
+   ============================================ */
+
+:root {
+    --primary: #0A192F;       /* Deep Navy */
+    --accent: #64FFDA;        /* Light Cyan/Teal */
+    --light-bg: #F8F9FA;      /* Very Light Gray */
+    --dark-text: #0F1419;
+    --gray: #6C757D;
+    --light-gray: #E9ECEF;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    background: var(--light-bg);
+    color: var(--dark-text);
+    line-height: 1.7;
+}
+
+.navbar {
+    background: white !important;
+    box-shadow: 0 2px 15px rgba(0,0,0,0.08);
+    padding: 1rem 0;
+}
+
+.navbar-brand {
+    font-weight: 700;
+    color: var(--primary) !important;
+    font-size: 1.5rem;
+}
+
+.nav-link {
+    color: var(--dark-text) !important;
+    font-weight: 500;
+    margin: 0 1rem;
+}
+
+.nav-link:hover {
+    color: var(--accent) !important;
+}
+
+.hero {
+    min-height: 90vh;
+    background: linear-gradient(135deg, rgba(10, 25, 47, 0.05) 0%, rgba(100, 255, 218, 0.05) 100%);
+    padding-top: 120px;
+}
+
+.profile-img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 8px solid white;
+    box-shadow: 0 15px 35px rgba(0,0,0,0.15);
+}
+
+.text-accent {
+    color: var(--accent);
+}
+
+.btn-primary {
+    background: var(--primary);
+    border: none;
+    padding: 12px 32px;
+    border-radius: 50px;
+    font-weight: 500;
+    transition: all 0.3s;
+}
+
+.btn-primary:hover {
+    background: #081528;
+    transform: translateY(-3px);
+    box-shadow: 0 8px 20px rgba(10, 25, 47, 0.2);
+}
+
+.skill-card, .project-card {
+    background: white;
+    border-radius: 12px;
+    transition: all 0.3s ease;
+    border: 1px solid var(--light-gray);
+}
+
+.skill-card:hover, .project-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+}
+
+footer {
+    background: var(--primary);
+    color: white;
+}
+
+footer a {
+    color: var(--accent);
+    transition: 0.3s;
+}
+
+footer a:hover {
+    color: white;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .profile-img {
+        width: 220px;
+        height: 220px;
+    }
+    .hero {
+        padding-top: 100px;
+        min-height: auto;
+    }
+}

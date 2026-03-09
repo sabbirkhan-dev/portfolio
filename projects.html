@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="apple-touch-icon" sizes="180x180" href="./Favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./Favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./Favicon/favicon-16x16.png">
+    <link rel="manifest" href="./Favicon/site.webmanifest">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Nunito&family=Satisfy&display=swap" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>Sabbir Khan | Projects</title>
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-md navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">Sabbir Khan</a>
+            <button class="navbar-toggler collapsed d-flex d-lg-none flex-column justify-content-around" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="toggler-icon top-bar"></span>
+                <span class="toggler-icon middle-bar"></span>
+                <span class="toggler-icon bottom-bar"></span>
+            </button>
+            <div class="collapse navbar-collapse text-center" id="navbarSupportedContent">
+                <ul class="navbar-nav m-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link p-4" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link p-4" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active p-4" href="projects.html">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link p-4" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+                <a href="cv/Sabbir_Khan_Resume.pdf" download="Sabbir_Khan_Resume" class="my-cv">Download CV</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Projects Section -->
+    <div class="section">
+        <div class="container-fluid">
+            <p class="title">-PROJECTS</p>
+            <div class="project-section">
+                <h2>FEATURED WORK</h2>
+                <p class="para">
+                    Passionate about building scalable backend solutions with Python.  
+                    Focused on clean code, problem-solving, and learning new technologies every day.
+                </p>
+            </div>
+            <div class="project-grid">
+                <div class="item1">
+                    <div class="layer">
+                        <a href="https://github.com/sabbirkhan-dev/Bank-Account-ATM" target="_blank">GitHub</a>
+                        <a href="#" target="_blank">Live Demo</a> <!-- যদি live demo থাকে link দিস -->
+                    </div>
+                </div>
+                <div class="item2">
+                    <div class="layer">
+                        <a href="https://github.com/sabbirkhan-dev/python-practice" target="_blank">GitHub</a>
+                        <a href="#" target="_blank">Live Demo</a>
+                    </div>
+                </div>
+                <!-- আরো প্রজেক্ট যোগ করতে চাইলে এখানে নতুন div copy-paste কর -->
+                <!-- উদাহরণ:
+                <div class="item3">
+                    <div class="layer">
+                        <a href="YOUR_NEW_PROJECT_GITHUB_LINK" target="_blank">GitHub</a>
+                        <a href="YOUR_LIVE_DEMO_LINK" target="_blank">Live Demo</a>
+                    </div>
+                </div>
+                -->
+            </div>
+        </div>
+    </div>
+
+    <!-- Contact Section -->
+    <div class="section">
+        <div class="container-fluid">
+            <p class="title">-CONTACT</p>
+            <div class="contact-section">
+                <h2>GET IN TOUCH</h2>
+                <p class="para">
+                    Have a project in mind? I'm available to collaborate and build something great.  
+                    Just a click away!
+                </p>
+                <div class="row img-sec justify-content-center">
+                    <div class="col-md-6">
+                        <div class="contact">
+                            <a href="mailto:sabbirkhan.dev@gmail.com" class="email">
+                                <img src="./img/email.png" alt="email me"> &nbsp; sabbirkhan.dev@gmail.com
+                            </a>
+                        </div>
+                        <div class="social-media">
+                            <a href="https://www.linkedin.com/in/sabbirkhan-dev" target="_blank">
+                                <img src="./img/LinkedIn Circled.png" alt="LinkedIn">
+                            </a>
+                            <a href="https://github.com/sabbirkhan-dev" target="_blank">
+                                <img src="./img/GitHub.png" alt="GitHub">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="form">
+                            <form action="https://formsubmit.co/sabbirkhan.dev@gmail.com" method="POST">
+                                <input type="text" name="name" placeholder="Full Name"><br>
+                                <input type="email" name="email" placeholder="Email">
+                                <input type="number" name="phone" placeholder="Phone No."><br>
+                                <textarea name="message" placeholder="Message (e.g., project details)" cols="30" rows="10"></textarea><br>
+                                <button type="submit">Send Message</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="footer-bottom">
+        <span id="year"></span> © Sabbir Khan. All Rights Reserved.
+    </div>
+
+    <button class="back-to-top" type="button"></button>
+
+    <!-- Scripts -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
+
